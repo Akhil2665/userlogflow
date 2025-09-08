@@ -22,7 +22,7 @@ const Login = () => {
       const newUser = { username, password };
       console.log(newUser);
       const response = await axios.post(
-        "https://loginappbackend-k3cu.onrender.com/login",
+        "https://userlogflow.onrender.com/login",
         newUser,
         {
           headers: { "Content-Type": "application/json" },
